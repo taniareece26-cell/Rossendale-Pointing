@@ -34,7 +34,7 @@ img {
    HEADER & NAVIGATION
    ============================================ */
 header {
-  background-color: #8B4513;
+  background-color:  #800020;
   color: #FFF;
   padding: 0;
   position: sticky;
@@ -573,7 +573,7 @@ footer {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #8B4513;
+    background-color:  #800020;
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);

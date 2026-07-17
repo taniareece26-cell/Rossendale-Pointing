@@ -583,16 +583,108 @@ footer {
     display: flex;
   }
 
+  nav ul li a {
+    padding: 12px 20px;
+    font-size: 1.05rem;
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+    padding: 12px 15px;
+  }
+
+  .logo-text h1 {
+    font-size: 1.1rem;
+  }
+
+  .logo-text p {
+    font-size: 0.65rem;
+  }
+
+  .hero {
+    padding: 50px 15px;
+  }
+
   .hero h2 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero-btn {
+    padding: 12px 30px;
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+
+  .section-title h2 {
+    font-size: 1.5rem;
   }
 
   .about-content,
   .contact-grid {
     grid-template-columns: 1fr;
+    gap: 25px;
   }
 
-  .header-inner {
-    flex-wrap: wrap;
+  .about-image {
+    height: 200px;
+  }
+
+  .contact-form {
+    padding: 25px;
+  }
+
+  .mission-hero {
+    padding: 40px 15px;
+  }
+
+  .mission-hero h2 {
+    font-size: 1.6rem;
+  }
+
+  .mission-content {
+    padding: 40px 15px;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 15px;
+  }
+
+  footer {
+    padding: 30px 15px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-container img {
+    height: 45px;
+  }
+
+  .logo-text h1 {
+    font-size: 0.95rem;
+  }
+
+  .hero h2 {
+    font-size: 1.3rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
   }
 }

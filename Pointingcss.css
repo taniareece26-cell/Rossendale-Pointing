@@ -278,6 +278,10 @@ section {
   align-items: center;
 }
 
+.about-text {
+  order: 1;
+}
+
 .about-text h3 {
   font-size: 1.5rem;
   color: #8B4513;
@@ -292,6 +296,7 @@ section {
 }
 
 .about-image {
+  order: 2;
   background: linear-gradient(135deg, #CD853F, #800020);
   height: 300px;
   border-radius: 8px;
@@ -707,7 +712,12 @@ footer {
     gap: 25px;
   }
 
+  .about-text {
+    order: 1;
+  }
+
   .about-image {
+    order: 2;
     height: 200px;
   }
 
@@ -783,4 +793,5 @@ footer {
   .gallery-item img {
     height: 160px;
   }
+}
 }

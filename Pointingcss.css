@@ -188,7 +188,7 @@ nav ul li a.active {
 .image-banner img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -691,11 +691,11 @@ footer {
   }
 
   .image-banner {
-    max-height: 150px;
+    max-height: 220px;
   }
 
   .image-banner img {
-    height: 150px;
+    height: 220px;
   }
 
   section {
@@ -767,11 +767,11 @@ footer {
   }
 
   .image-banner {
-    max-height: 120px;
+    max-height: 180px;
   }
 
   .image-banner img {
-    height: 120px;
+    height: 180px;
   }
 
   .services-grid {
@@ -793,5 +793,4 @@ footer {
   .gallery-item img {
     height: 160px;
   }
-}
 }
